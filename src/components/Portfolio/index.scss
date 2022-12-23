@@ -1,11 +1,10 @@
-
 .projectList {
   width: 85vw;
-  display:flex;
-  flex-direction:row;
-  column-gap:2rem;
-  row-gap:4rem;
-  flex-wrap:wrap;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  row-gap: 4rem;
+  flex-wrap: wrap;
   margin-top: 175px;
   margin-left: 115px;
 }
@@ -15,11 +14,11 @@
 .projectItem {
   border-radius: 15px;
   width: 320px;
-  height:300px;
+  height: 300px;
   border: 1px solid #ffffff;
   text-align: center;
-  color:#ffffff;
-  overflow:hidden;
+  color: #ffffff;
+  overflow: hidden;
 }
 .projectItem:hover {
   box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.5);
@@ -27,21 +26,20 @@
   cursor: pointer;
 }
 
-.projectItem .imgContainer{
-width:100%;
-height:50%;
-overflow:hidden;
+.projectItem .imgContainer {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
 }
 
 .imgContainer .bgImage {
   width: 100%;
-  height:100%;
+  height: 100%;
 }
 
 .projectItem h1 {
   font-size: 25px;
 }
-
 
 .project {
   width: 100%;
@@ -54,15 +52,14 @@ overflow:hidden;
 }
 
 .pro-btns {
-    //font-size: 40px;
-    display: block;
-    justify-content: space-between;
-    padding: 0.5rem 0;
-
+  //font-size: 40px;
+  display: block;
+  justify-content: space-between;
+  padding: 0.5rem 0;
 }
 
-.pro-btns .btn{
-    padding: 3rem 5rem;
+.pro-btns .btn {
+  padding: 3rem 5rem;
 }
 
 .project h1 {
@@ -75,11 +72,9 @@ overflow:hidden;
   border-radius: 10px;
 }
 
-
 .project svg {
   font-size: 30px;
   color: black;
   margin-top: 20px;
   align-self: center;
 }
-
